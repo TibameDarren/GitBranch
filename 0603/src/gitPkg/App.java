@@ -7,11 +7,11 @@ public class App {
 		System.out.println("Ellie is little pig 1");
 		Math c = new Math();
 		System.out.println(c.add(10, 8));
+		}
+
 	}
 
-}
-
-class Math {
+	class Math {
 	
 	int add(int a, int b) {
 		return a+b;
